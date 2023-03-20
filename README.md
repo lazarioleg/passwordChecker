@@ -8,7 +8,7 @@ Features:
 
 Generate secure passwords with customizable length and character sets
 
-Salt and hash passwords using SHA-256
+Salt and hash passwords using BCRYPT
 
 Store salt and hash in a SQLite database
 
@@ -23,8 +23,6 @@ Tech Stack:
 Python
 
 SQLite (for database management)
-
-Passlib (for password hashing)
 
 Time module (for estimating crack time)
 
